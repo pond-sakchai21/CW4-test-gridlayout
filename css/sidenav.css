@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(163, 51, 51);
+    overflow-x: hidden;
+}
+
+.sidenav a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.sidenav a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(33, 180, 199);
+}
+
+.content {
+    margin-left: 200px;
+    padding-left: 20px;
+}
